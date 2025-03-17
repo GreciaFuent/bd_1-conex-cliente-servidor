@@ -57,5 +57,5 @@ app.get("/api/get", (req, res) => {
 // Puerto para el servidor
 const port = 3000;
 app.listen(port, () => {
-  console.log(Servidor corriendo en el puerto ${port});
+  console.log('Servidor corriendo en el puerto ${port}');
 });
